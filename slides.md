@@ -70,3 +70,7 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 - Ensures good developer experiences
 - Earlier validation
 - Documentation
+
+---
+
+# Usefull links
