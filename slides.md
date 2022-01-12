@@ -46,7 +46,7 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
       With an API-first approach, instead of starting with code, you could start with design, planning, mocks, and tests.
     </p>
     <p>
-      Gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project. Using mocks or an API development environment makes the current state of the project more accessible to both technical and non-technical team members.
+      Gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project.
     </p>
 </section>
 
