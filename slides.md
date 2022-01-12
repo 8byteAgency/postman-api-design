@@ -1,6 +1,6 @@
 ---
-theme: apple-basic
-layout: intro-image
+theme: "apple-basic" 
+layout: "intro-image"
 image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
 ---
 
@@ -35,7 +35,7 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 - Frontend team don't know how the API will look like, until the backend team implement it;
 - It is not always possible for the backend team to properly plan what APIs are needed;
 - Main focus of backend team is on “core functionality”, so it drives the implementation of the API;
-- Besides a disjointed developer experience, this approach leaves your team vulnerable to bottlenecks;
+- Besides, a disjointed developer experience, this approach leaves your team vulnerable to bottlenecks;
 
 ---
 
@@ -49,19 +49,24 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
       Gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project. Using mocks or an API development environment makes the current state of the project more accessible to both technical and non-technical team members.
     </p>
     <p>
-      By also separating the design of the API from its implementation, the architect is constrained only by the data model and business logic. Your API can now evolve unfettered by any existing user interface or legacy engineering frameworks.
+        By also separating the design of the API from its implementation, the architect is constrained only by the data model and business logic. Your API can now evolve unfettered by any existing user interface or legacy engineering frameworks.
     </p>
 </section>
 
 ---
 
-# API-first design
+# Props of an API-first approach
 
 <section class="max-w-screen-sm">
-    <p>
+  <p>
     This approach takes it a step further and requires planning the intended API’s functionality before building the API itself. What functionality will the API have? What data will it expose? What will the developer experience be like? How will it scale? How will we add new functionality in the future?
-    </p>
-    <p class='text-red-500'>
-      <b>Word of Caution:</b> focusing on the design first does not mean ruminating endlessly on all the what-if scenarios. A good design should have the flexibility to adapt to changing circumstances and accommodate new insights.
-    </p>
+  </p>
+  <p class='text-red-500'>
+    <b>Word of Caution:</b> focusing on the design first does not mean ruminating endlessly on all the what-if scenarios. A good design should have the flexibility to adapt to changing circumstances and accommodate new insights.
+  </p>
 </section>
+
+- Development teams can work in parallel
+- Ensures good developer experiences
+- Earlier validation
+- Documentation
