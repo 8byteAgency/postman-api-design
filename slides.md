@@ -48,9 +48,10 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
     <p>
       Gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project. Using mocks or an API development environment makes the current state of the project more accessible to both technical and non-technical team members.
     </p>
-    <p>
-        By also separating the design of the API from its implementation, the architect is constrained only by the data model and business logic. Your API can now evolve unfettered by any existing user interface or legacy engineering frameworks.
-    </p>
+</section>
+
+<section>
+  <img src="https://miro.medium.com/max/2000/1*sfzD7ASe-ESAwU06yOYblA.png" class="h-60" />
 </section>
 
 ---
