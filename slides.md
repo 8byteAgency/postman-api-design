@@ -73,4 +73,7 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 
 ---
 
-# Usefull links
+# Useful links
+
+- [API-first software development for modern organizations](https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3)
+- [Design and Prototype an API in Postman](https://youtu.be/r4kb3jOSsmk)
