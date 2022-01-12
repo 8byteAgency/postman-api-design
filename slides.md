@@ -1,7 +1,8 @@
 ---
-theme: "apple-basic" 
-layout: "intro-image"
-image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+theme: apple-basic
+layout: intro-image
+image: >-
+  https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
 ---
 
 <div class="absolute top-10">
@@ -12,7 +13,9 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 
 <div class="absolute bottom-10 bg-dark-900 bg-opacity-70 rounded-xl px-5">
   <h1>API-first approach</h1>
+  <p>in software development</p>
 </div>
+
 
 ---
 
@@ -43,10 +46,7 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 
 <section class="max-w-screen-sm">
     <p>
-      With an API-first approach, instead of starting with code, you could start with design, planning, mocks, and tests.
-    </p>
-    <p>
-      Gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project.
+      With an API-first approach, instead of starting with code, you could start with design, planning, mocks, and tests. It allows gathering feedback at this early stage allows you to make changes more easily before a lot of time and effort is sunk  into the project.
     </p>
 </section>
 
@@ -60,21 +60,33 @@ image: "https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-1.
 
 <section class="max-w-screen-sm">
   <p>
-    This approach takes it a step further and requires planning the intended API’s functionality before building the API itself. What functionality will the API have? What data will it expose? What will the developer experience be like? How will it scale? How will we add new functionality in the future?
+    This approach takes it a step further and requires planning the intended API’s functionality before building the API
+    itself. What functionality will the API have? What data will it expose? What will the developer experience be like?
+    How will it scale? How will we add new functionality in the future?
   </p>
-  <p class='text-red-500'>
-    <b>Word of Caution:</b> focusing on the design first does not mean ruminating endlessly on all the what-if scenarios. A good design should have the flexibility to adapt to changing circumstances and accommodate new insights.
-  </p>
+
+  <ul>
+    <li>Development teams can work in parallel</li>
+    <li>Ensures good developer experiences</li>
+    <li>Earlier validation</li>
+    <li>Documentation</li>
+  </ul>
 </section>
 
-- Development teams can work in parallel
-- Ensures good developer experiences
-- Earlier validation
-- Documentation
+---
+
+<section class="max-w-screen-sm text-red-500">
+  <h1>Word of Caution</h1>
+  <p>
+    Focusing on the design first does not mean ruminating endlessly on all the what-if scenarios. A good design should have the flexibility to adapt to changing circumstances and accommodate new insights. As some teams can attest, mandating that specifications drive development can backfire.
+  </p>
+</section>
 
 ---
 
 # Useful links
 
-- [API-first software development for modern organizations](https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3)
 - [Design and Prototype an API in Postman](https://youtu.be/r4kb3jOSsmk)
+- [API-first software development for modern organizations](https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3)
+- [Design APIs like you design User Experience](https://medium.com/better-practices/design-apis-like-you-design-user-experience-a7adeb2ee90f)
+- [API Design Guide](https://www.postman.com/postman/workspace/postman-team-collections/documentation/1372588-81512aa8-f91a-4bcd-a53a-6037780c730e)
