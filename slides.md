@@ -35,10 +35,15 @@ image: >-
 
 # What we have in our case
 
-- Frontend team don't know how the API will look like, until the backend team implement it;
-- It is not always possible for the backend team to properly plan what APIs are needed;
-- Main focus of backend team is on “core functionality”, so it drives the implementation of the API;
-- Besides, a disjointed developer experience, this approach leaves your team vulnerable to bottlenecks;
+<section class="max-w-screen-sm">
+  <ul>
+    <li>The process of&nbsp;API development looks like a&nbsp;child&rsquo;s guessing game&nbsp;&mdash; the backend team is&nbsp;guessing what the frontend needs, the frontend team is&nbsp;guessing what it&nbsp;will get in&nbsp;the end;</li>
+    <li>And because the backend team has to guess, and the backend team's primary focus is on "core functionality," they create the API as they see fit (I would do the same thing), which is often inconvenient for the frontend team;</li>
+    <li>
+        And we have a lack of documentation and examples of proper use of the API;<br/> (Yep, we have some notes in JIRA about API endpoints, but let's be honest, it isn't best place for API documentation)
+    </li>
+  </ul>
+</section>
 
 ---
 
